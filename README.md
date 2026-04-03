@@ -24,7 +24,15 @@ Il sistema sfrutta un'architettura basata su **Triplet Loss** per mappare le imm
 ---
 
 ## 📊 Dataset
-Il dataset analizzato comprende un totale di 2.496.738 immagini generate tramite 25 diversi algoritmi (GAN, Diffusion Models, etc.). Per l'addestramento sono stati utilizzati subset bilanciati:
+Il dataset è costituito da 2496738 immagini di cui 964989 rappresentano le immagini reali mentre 1531749 rappresentano le immagini fake. Per la generazione delle immagini fake, sono stati utilizzati 25 generatori (come 13 GANs, 7 Diffusion, e 5 miscellaneous generators) e per quanto riguarda le categorie incluse nel dataset sono: Human/Human Faces, Animal/Animal Faces, Places, Vehicles, Art, e altri oggetti real-life. Il dataset, inoltre, è stato suddiviso in 32 cartelle, ognuna delle quali contiene un file metadata.csv all’interno
+del quale sono state definite le seguenti informazioni: 
+* **Filename:** Rappresenta il nome dell’immagine.
+* **image_path:** Rappresenta il percorso fino alla cartella in cui è situata l’immagine.
+* **target:** Rappresentato da un numero che va da 0 a 6 dove 0 indica le immagini reali mentre tutti gli altri valori maggiori di 0 rappresentano le immagini fake.
+* **category:** Rappresentata da una stringa, è associata all’immagine di riferimento e ne rappresenta il tipo.
+
+Per l'addestramento sono stati utilizzati subset bilanciati:
+
 * **Cycle-GAN**: 7.605 reali / 7.605 fake.
 * **Pro-GAN**: 20.000 reali / 20.000 fake.
 
