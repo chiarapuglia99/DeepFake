@@ -1,11 +1,11 @@
-# 🛡️ DeepFake Detection attraverso l'utilizzo del modello CLIP
+# DeepFake Detection attraverso l'utilizzo del modello CLIP
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
 [![CLIP](https://img.shields.io/badge/Model-CLIP-lightgrey.svg)](https://github.com/openai/CLIP)
 
 ## 📝 Descrizione del Progetto
-L'obiettivo della ricerca è lo sviluppo di un sistema di classificazione binaria per distinguere immagini reali da immagini sintetiche (Deepfake)[cite: 13, 40]. Il cuore del sistema è il modello **CLIP (Contrastive Language-Image Pretraining)**, utilizzato come estrattore di feature visive e testuali.
+L'obiettivo della ricerca è lo sviluppo di un sistema di classificazione binaria per distinguere immagini reali da immagini sintetiche (Deepfake). Il cuore del sistema è il modello **CLIP (Contrastive Language-Image Pretraining)**, utilizzato come estrattore di feature visive e testuali.
 
 ## 🔬 Metodologia e Scelte Progettuali
 Il sistema sfrutta un'architettura basata su **Triplet Loss** per mappare le immagini in uno spazio latente dove:
