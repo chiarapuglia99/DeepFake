@@ -63,8 +63,8 @@ Risultati ottenuti tramite prodotto elemento per elemento per cogliere l'interaz
 Entrambi gli approcci utilizzati (estrazione delle sole immagini ed estrazione delle immagini+testo) per fare distinzione tra immagini reali e immagini fake hanno portato al raggiungimento di buoni risultati, in quanto entrambi gli approcci effettuano una buona generalizzazione dei dati. Tuttavia, sulla base dei risultati ottenuti, è possibile effettuare ulteriore ricerca al fine di migliorare i risultati raggiunti, per farsì che il modello sia in grado di effettuare una separazione netta tra immagini reali ed immagini fake.
 
 ## 👥 Autori
-* [**Chiara Puglia**](https://github.com/tuo-username-chiarapuglia99): Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning at University of Salerno.
-* [**Luca Giuliano**](https://github.com/tuo-username-Kizorat): Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning at University of Salerno.
+* [**Chiara Puglia**](https://github.com/chiarapuglia99): Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning at University of Salerno.
+* [**Luca Giuliano**](https://github.com/Kizorat): Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning at University of Salerno.
 
 ---
 
