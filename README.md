@@ -86,6 +86,10 @@ Entrambi gli approcci utilizzati (estrazione delle sole immagini ed estrazione d
 ---
 
 ## 📚 Riferimenti
-* [1] Dataset DeepFake.
-* [2] De Rosa et al., "Exploring the Adversarial Robustness of CLIP for AI-generated Image Detection" (WIFS 2024).
-* [3] Ojha et al., (CVPR 2023).
+* [1] [Dataset DeepFake](https://github.com/awsaf49/artifact).
+* [2] Exploring the Adversarial Robustness of CLIP for AI-generated Image Detection 2024 IEEE International Workshop on Information Forensics and Security (WIFS) | Autori: Vincenzo De Rosa, Fabrizio Guillaro, Giovanni Poggi, Davide Cozzolino and Luisa Verdoliva -University Federico II of Naples, Italy.
+* [3] Synthetic Image Verification in the Era of Generative Artificial Intelligence What Works and What Isnt There yet.
+* [4] [Clip Deepfake Detection](https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection/tree/main)
+* [5] [CLIP Model and the Importance of Multimodal Embeddings](https://medium.com/data-science/clip-model-and-the-importance-of-multimodal-embeddings-1c8f6b13bf72)
+* [6] [Image-Classification-CLIP](https://www.pinecone.io/learn/series/image-search/zero-shot-image-classification-clip/)
+* [7] [Guida per l'implementazione di Early Stopping in Pytorch](https://medium.com/biased-algorithms/a-practical-guide-to-implementing-early-stopping-in-pytorch-for-model-training-99a7cbd46e9d)
