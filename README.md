@@ -4,8 +4,6 @@
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
 [![CLIP](https://img.shields.io/badge/Model-CLIP-lightgrey.svg)](https://github.com/openai/CLIP)
 
-Repository ufficiale del progetto per l'esame di **Fondamenti di Visione Artificiale e Biometria** presso l'Università degli Studi di Salerno (a.a. 2024/2025).
-
 ## 📝 Descrizione del Progetto
 L'obiettivo della ricerca è lo sviluppo di un sistema di classificazione binaria per distinguere immagini reali da immagini sintetiche (Deepfake)[cite: 13, 40]. Il cuore del sistema è il modello **CLIP (Contrastive Language-Image Pretraining)**, utilizzato come estrattore di feature visive e testuali.
 
