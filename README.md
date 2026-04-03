@@ -13,7 +13,7 @@ Il sistema sfrutta un'architettura basata su **Triplet Loss** per mappare le imm
 * **Positive**: Immagini simili alle reali.
 * **Negative**: Immagini fake.
 
-[cite_start]Il modello mira a minimizzare la distanza tra anchor e positive, massimizzando contemporaneamente quella tra anchor e negative.
+Il modello mira a minimizzare la distanza tra anchor e positive, massimizzando contemporaneamente quella tra anchor e negative.
 
 ### ⚙️ Configurazione
 * **Modello Visione**: Transformer $Vit-B/32$ (per sola immagine) e $Vit-B/16$ (per approccio multimodale).
@@ -22,6 +22,23 @@ Il sistema sfrutta un'architettura basata su **Triplet Loss** per mappare le imm
 * **Classificatore**: Support Vector Machine (SVM) con suddivisione 70% Training, 10% Validation, 20% Test.
 
 ---
+
+## Creazione dell'Ambiente Virtuale
+Per un'esperienza utente migliore, si consiglia di creare un ambiente virtuale per il progetto e di attivarlo prima di procedere oltre. Sentiti libero di usare qualsiasi gestore di pacchetti Python per creare l'ambiente virtuale; tuttavia, il nostro team ha deciso di utilizzare Conda. [Conda](https://anaconda.org/). 
+Utilizza il seguente comando per la creazione dell'enviroment:
+```
+conda create --name env_name
+```
+Successivamente, utilizza il seguente comando per attivare l'ambiente appena creato::
+```
+conda activate env_name
+```
+
+## Clonazione della repository
+Puoi scaricare la repository tramite il comando da terminale eseguendo:
+```
+git clone https://github.com/chiarapuglia99/Deepfake.git
+```
 
 ## 📊 Dataset
 Il dataset è costituito da 2496738 immagini di cui 964989 rappresentano le immagini reali mentre 1531749 rappresentano le immagini fake. Per la generazione delle immagini fake, sono stati utilizzati 25 generatori (come 13 GANs, 7 Diffusion, e 5 miscellaneous generators) e per quanto riguarda le categorie incluse nel dataset sono: Human/Human Faces, Animal/Animal Faces, Places, Vehicles, Art, e altri oggetti real-life. Il dataset, inoltre, è stato suddiviso in 32 cartelle, ognuna delle quali contiene un file metadata.csv all’interno
