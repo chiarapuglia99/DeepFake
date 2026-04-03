@@ -24,7 +24,7 @@ Il modello mira a minimizzare la distanza tra anchor e positive, massimizzando c
 ---
 
 ## Creazione dell'Ambiente Virtuale
-Per un'esperienza utente migliore, si consiglia di creare un ambiente virtuale per il progetto e di attivarlo prima di procedere oltre. Sentiti libero di usare qualsiasi gestore di pacchetti Python per creare l'ambiente virtuale; tuttavia, il nostro team ha deciso di utilizzare Conda. [Conda](https://anaconda.org/). 
+Per un'esperienza utente migliore, si consiglia di creare un ambiente virtuale per il progetto e di attivarlo prima di procedere oltre. Sentiti libero di usare qualsiasi gestore di pacchetti Python per creare l'ambiente virtuale; tuttavia, il nostro team ha deciso di utilizzare [Conda](https://anaconda.org/). 
 Utilizza il seguente comando per la creazione dell'enviroment:
 ```
 conda create --name env_name
