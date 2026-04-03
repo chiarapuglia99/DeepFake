@@ -1,15 +1,15 @@
-# DeepFake Detection attraverso l'utilizzo del modello CLIP
+# 🛡️ DeepFake Detection attraverso l'utilizzo del modello CLIP
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
 [![CLIP](https://img.shields.io/badge/Model-CLIP-lightgrey.svg)](https://github.com/openai/CLIP)
 
-[cite_start]Repository ufficiale del progetto per l'esame di **Fondamenti di Visione Artificiale e Biometria** presso l'Università degli Studi di Salerno (a.a. 2024/2025)[cite: 4, 9, 10].
+Repository ufficiale del progetto per l'esame di **Fondamenti di Visione Artificiale e Biometria** presso l'Università degli Studi di Salerno (a.a. 2024/2025)[cite: 4, 9, 10].
 
-## Descrizione del Progetto
+## 📝 Descrizione del Progetto
 [cite_start]L'obiettivo della ricerca è lo sviluppo di un sistema di classificazione binaria per distinguere immagini reali da immagini sintetiche (Deepfake)[cite: 13, 40]. [cite_start]Il cuore del sistema è il modello **CLIP (Contrastive Language-Image Pretraining)**, utilizzato come estrattore di feature visive e testuali[cite: 21, 96].
 
-## Metodologia e Scelte Progettuali
+## 🔬 Metodologia e Scelte Progettuali
 [cite_start]Il sistema sfrutta un'architettura basata su **Triplet Loss** per mappare le immagini in uno spazio latente dove[cite: 112]:
 * [cite_start]**Anchor**: Immagini reali[cite: 111].
 * [cite_start]**Positive**: Immagini simili alle reali[cite: 111, 112].
@@ -17,7 +17,7 @@
 
 [cite_start]Il modello mira a minimizzare la distanza tra anchor e positive, massimizzando contemporaneamente quella tra anchor e negative[cite: 112].
 
-### Configurazione
+### ⚙️ Configurazione
 * [cite_start]**Modello Visione**: Transformer $Vit-B/32$ (per sola immagine) e $Vit-B/16$ (per approccio multimodale)[cite: 96, 463].
 * [cite_start]**Pre-processing**: Ridimensionamento a $200\times200$ pixel, denormalizzazione e normalizzazione specifica CLIP[cite: 38, 106].
 * [cite_start]**Embedding**: Riduzione della dimensionalità da 512 a 128[cite: 104].
@@ -57,12 +57,12 @@ L'efficacia è stata testata su tre diverse configurazioni.
 [cite_start]Entrambi gli approcci hanno dimostrato ottime capacità di generalizzazione[cite: 956]. [cite_start]L'analisi tramite **PCA** conferma che gli embedding estratti da CLIP, uniti alla regolarizzazione della Triplet Loss, creano cluster ben definiti per la separazione tra reale e sintetico[cite: 441, 659].
 
 ## 👥 Autori
-* [cite_start]**Chiara Puglia** Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning [cite: 7]
-* [cite_start]**Luca Giuliano** Master's Degree Student in Computer Science, curriculum Data Science and Machine Learning [cite: 8]
+* [cite_start]**Chiara Puglia**: Master's Degree Student in Computer Science[cite: 7].
+* [cite_start]**Luca Giuliano**: Master's Degree Student in Computer Science[cite: 8].
 
 ---
 
 ## 📚 Riferimenti
-* [cite_start][1] Dataset DeepFake [cite: 960]
-* [cite_start][2] De Rosa et al., "Exploring the Adversarial Robustness of CLIP for AI-generated Image Detection" (WIFS 2024) [cite: 962]
-* [cite_start][3] Ojha et al., (CVPR 2023) [cite: 21]
+* [cite_start][1] Dataset DeepFake[cite: 960].
+* [cite_start][2] De Rosa et al., "Exploring the Adversarial Robustness of CLIP for AI-generated Image Detection" (WIFS 2024)[cite: 962].
+* [cite_start][3] Ojha et al., (CVPR 2023)[cite: 21].
